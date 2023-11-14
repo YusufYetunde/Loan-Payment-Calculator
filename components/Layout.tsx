@@ -1,6 +1,6 @@
 import React, { ReactNode } from "react";
 
-import { Header, Meta, NoSSR, TopGradient } from "@/components";
+import { Footer, Header, Meta, NoSSR, TopGradient } from "@/components";
 
 export default function Layout({ children }: { children: ReactNode }) {
   return (
@@ -11,6 +11,7 @@ export default function Layout({ children }: { children: ReactNode }) {
         <Header />
 
         {children}
+        <Footer/>
       </div>
     </NoSSR>
   );

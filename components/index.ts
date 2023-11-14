@@ -8,3 +8,4 @@ export { default as NoSSR } from "./NoSSR";
 export { default as Breakdown } from "./Breakdown";
 export { default as TextField } from "./Inputs";
 export { default as TopGradient } from "./TopGradient";
+export { default as Footer} from "./Footer";
