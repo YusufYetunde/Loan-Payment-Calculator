@@ -7,7 +7,7 @@ import { formatter, pieFormatter, toRoundNumber } from "@/utils";
 
 import stateAtom from "@/atoms/stateAtom";
 
-const PaymentBreakUp = () => {
+const Breakdown = () => {
   const { outcome } = useRecoilValue(stateAtom);
 
   if (outcome?.principalAmount <= 0 || outcome?.totalInterestPayable <= 0) {
@@ -45,4 +45,4 @@ const PaymentBreakUp = () => {
   );
 };
 
-export default PaymentBreakUp;
+export default Breakdown;

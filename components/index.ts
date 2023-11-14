@@ -5,6 +5,6 @@ export { default as Layout } from "./Layout";
 export { default as LoanRepaymentScheduleTable } from "./LoanRepaymentScheduleTable";
 export { default as Meta } from "./Meta";
 export { default as NoSSR } from "./NoSSR";
-export { default as PaymentBreakUp } from "./PaymentBreakUp";
+export { default as Breakdown } from "./Breakdown";
 export { default as TextField } from "./Inputs";
 export { default as TopGradient } from "./TopGradient";

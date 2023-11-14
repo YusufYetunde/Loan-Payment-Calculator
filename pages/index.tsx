@@ -9,7 +9,7 @@ import {
   EMI,
   Layout,
   LoanRepaymentScheduleTable,
-  PaymentBreakUp,
+  Breakdown,
   TextField,
 } from "@/components";
 
@@ -132,7 +132,7 @@ export default function Home() {
             </div>
           </div>
           <EMI />
-          <PaymentBreakUp />
+          <Breakdown />
           <LoanRepaymentScheduleTable onCalculate={onCalculate} />
           <BottomGradient />
         </div>
